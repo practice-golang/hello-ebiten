@@ -1,19 +1,20 @@
 module hello-ebiten
 
-go 1.17
+go 1.18
 
 require (
 	github.com/fogleman/gg v1.3.0
-	github.com/hajimehoshi/ebiten/v2 v2.2.2
+	github.com/hajimehoshi/ebiten/v2 v2.4.0
 )
 
 require (
-	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20210727001814-0db043d8d5be // indirect
+	github.com/ebitengine/purego v0.0.0-20220829192423-0acfce66fb4a // indirect
+	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20220806181222-55e207c401ad // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
-	github.com/jezek/xgb v0.0.0-20210312150743-0e0f116e1240 // indirect
-	golang.org/x/exp v0.0.0-20190731235908-ec7cb31e5a56 // indirect
-	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d // indirect
-	golang.org/x/mobile v0.0.0-20210902104108-5d9a33257ab5 // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20210917161153-d61c044b1678 // indirect
+	github.com/hajimehoshi/file2byteslice v1.0.0 // indirect
+	github.com/jezek/xgb v1.0.1 // indirect
+	golang.org/x/exp/shiny v0.0.0-20220827204233-334a2380cb91 // indirect
+	golang.org/x/image v0.0.0-20220902085622-e7cb96979f69 // indirect
+	golang.org/x/mobile v0.0.0-20220722155234-aaac322e2105 // indirect
+	golang.org/x/sys v0.0.0-20220829200755-d48e67d00261 // indirect
 )
